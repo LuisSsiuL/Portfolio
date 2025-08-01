@@ -121,6 +121,80 @@ Wise Frame is an AI-powered mobile app that helps users discover the perfect eye
 
 ---
 
+## 🧠 IPC Similarity Verifier – Face Matching & Liveness Detection
+
+This project verifies whether the person in a selfie is the same as in an uploaded KTP (Indonesian ID card) using facial recognition, and checks for liveness (anti-spoofing) using DeepFace.
+
+🔗 **Live demo on Hugging Face**: [IPC Similarity Verifier](https://c-luis-e-ipc-similarity-verifier.hf.space)
+
+> ⚠️ **Privacy Notice:** All images uploaded via the web or API are processed **in memory only**. **No images are stored or collected.** Once processed, the data is discarded immediately.
+
+---
+
+### 🔍 API: `/api/verify` – Identity Similarity Check
+
+- **Method:** `POST`
+- **Content-Type:** `multipart/form-data`
+- **Body Parameters:**
+  - `ktp_image`: image file (JPG/PNG) of the KTP
+  - `selfie_image`: image file (JPG/PNG) of the user’s selfie
+
+#### ✅ Example `curl` Command:
+```bash
+curl -X POST https://c-luis-e-ipc-similarity-verifier.hf.space/api/verify \
+  -F "ktp_image=@/path/to/ktp.jpg" \
+  -F "selfie_image=@/path/to/selfie.jpg"
+```
+
+#### ✅ Example Success Response:
+```json
+{
+  "matched": true,
+  "distance": 0.31,
+  "threshold": 0.4,
+  "message": "Face match successful"
+}
+```
+
+---
+
+### 🧬 API: `/api/liveness` – Liveness Detection (Anti-Spoofing)
+
+- **Method:** `POST`
+- **Content-Type:** `multipart/form-data`
+- **Body Parameter:**
+  - `image`: selfie image file (JPG/PNG)
+
+#### ✅ Example `curl` Command:
+```bash
+curl -X POST https://c-luis-e-ipc-similarity-verifier.hf.space/api/liveness \
+  -F "image=@/path/to/selfie.jpg"
+```
+
+#### ✅ Example Success Response:
+```json
+{
+  "liveness_passed": true,
+  "confidence": 0.9832
+}
+```
+
+---
+
+### 🛠️ Technologies Used
+
+- `Flask` (API server)
+- `OpenCV` (image decoding)
+- `DeepFace` (face recognition + anti-spoofing)
+- `Gunicorn` (production server for Hugging Face Spaces)
+
+---
+
+Feel free to clone the repository and run it locally, or test it using the hosted demo.
+
+---
+
+
 ## 🚀 Summary
 
 This portfolio demonstrates a well-rounded application of machine learning and AI across various domains—NLP, computer vision, healthcare, fashion, and human-computer interaction. My goal is to keep learning, contributing, and building impactful AI solutions.
