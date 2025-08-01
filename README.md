@@ -241,5 +241,8 @@ This project demonstrates strong skills in real-time computer vision, human pose
 
 ![20241114163346](https://github.com/user-attachments/assets/fbbc6e19-845d-4925-9bdc-748c25b20d62)
 
+#Wise Frame
+Link External Github Repo: https://github.com/celine1906/C8S2-MLChallenge-WiseFrame
 
+An AI-powered iOS app that recommends eyeglass frames based on user’s face shape and skin tone, with AR try-on.
 
