@@ -1,4 +1,4 @@
-# 🧠 Machine Learning Portfolio
+<img width="567" height="455" alt="sentiment_analysis" src="https://github.com/user-attachments/assets/8006011f-96a4-4d31-95f4-0f3eb8af265f" /># 🧠 Machine Learning Portfolio
 
 Welcome to my Machine Learning Portfolio – a curated collection of projects showcasing my journey and skills in applied AI and data science. I'm a Computer Science student at Bina Nusantara University specializing in Artificial Intelligence. This repository demonstrates not only my academic progress but also my passion for solving real-world problems with data and machine learning.
 
@@ -7,6 +7,8 @@ Welcome to my Machine Learning Portfolio – a curated collection of projects sh
 ---
 
 ## 🩺 Skin Disease Detection using Hybrid CNN–Transformer (Thesis)
+[ViT-EfficientNet.ipynb](https://github.com/user-attachments/files/24323398/ViT-EfficientNet.ipynb)
+<img width="1189" height="490" alt="vit-efficientnetb1" src="https://github.com/user-attachments/assets/804e08c1-a36e-43b8-a019-f690e75002fc" />
 
 This project is part of my undergraduate thesis and focuses on classifying skin lesions using a hybrid deep learning architecture that combines Convolutional Neural Networks (CNNs) for local feature extraction and Transformer models for global context understanding.
 
@@ -88,9 +90,8 @@ Technologies Used:
 
 ---
 
-## 🕶️ AI in Fashion
-
 ### 🔹 Wise Frame – AI-powered Face & Eyewear Matching
+<img width="1489" height="1189" alt="face_shape_detector" src="https://github.com/user-attachments/assets/c7cc456d-5ea2-4176-944b-eb7486891ce0" />
 
 GitHub Repository:  
 https://github.com/celine1906/C8S2-MLChallenge-WiseFrame
@@ -116,18 +117,6 @@ Skills: Computer Vision, iOS App Development, ML Model Integration, UX Design, A
 
 ---
 
-## 🧑‍🎨 Computer Vision Projects
-
-### 🔹 Face Shape Classification (with iOS integration)
-
-Created a pipeline using facial landmarks to classify face shapes.
-- Used Python for model training  
-- Integrated with iOS using Swift and Apple’s Vision framework  
-
-Skills: Facial Landmark Detection, iOS Integration, ML for Apps
-
----
-
 ### 🔹 Pose to Impress
 
 GitHub Repository:  
@@ -144,24 +133,10 @@ Skills: Human Pose Estimation, Computer Vision, User Interaction
 
 ---
 
-## 🖼️ Vision Architectures
-
-### 🔹 Vision Transformers vs EfficientNet
-
-Comparative analysis of Vision Transformers, EfficientNet, and hybrid models for image classification tasks.
-
-Insights:
-- Accuracy vs efficiency trade-offs  
-- Architectural performance comparison  
-- Training behavior visualization  
-
-Skills: Transfer Learning, Model Comparison, Experiment Design
-
----
-
 ## 🩻 Medical Imaging
 
 ### 🔹 Pneumonia Detection from Chest X-Rays
+<img width="1567" height="1582" alt="Chest_Xray" src="https://github.com/user-attachments/assets/49bb545c-1173-4966-88ff-ed8a5a806cc6" />
 
 Developed a CNN-based model to classify chest X-rays as either Normal or Pneumonia.
 
@@ -177,6 +152,7 @@ Skills: Deep Learning, CNNs, Medical Imaging, Model Evaluation
 ## 🎧 Audio & Speech
 
 ### 🔹 DeepFake Audio Detection
+<img width="1033" height="470" alt="DeepFakeDetection" src="https://github.com/user-attachments/assets/ecb74e9d-c6d3-48af-8316-90f6515ff8d5" />
 
 Built a deep learning system to detect synthetic audio using CNNs and audio features such as MFCCs.
 
@@ -195,6 +171,8 @@ Skills: NLP Preprocessing, Summarization Algorithms, Tokenization, Text Cleaning
 ---
 
 ### 🔹 Sentiment Analysis – Satria Data Competition Insights
+
+<img width="567" height="455" alt="sentiment_analysis" src="https://github.com/user-attachments/assets/ed7fc982-c0fb-4c9a-80fb-b41866276464" />
 
 Analyzed participant demographics and trends in an Indonesian data competition.
 
